@@ -1,0 +1,16 @@
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\ReportsServer.deps.json
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\ReportsServer.runtimeconfig.json
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\ReportsServer.runtimeconfig.dev.json
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\ReportsServer.dll
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\ReportsServer.pdb
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\DBRepository.dll
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\Models.dll
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\DBRepository.pdb
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\bin\Release\netcoreapp2.0\Models.pdb
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.csprojAssemblyReference.cache
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.csproj.CoreCompileInputs.cache
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.AssemblyInfoInputs.cache
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.AssemblyInfo.cs
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.csproj.CopyComplete
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.dll
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer\obj\Release\netcoreapp2.0\ReportsServer.pdb
