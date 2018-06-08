@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Models.Models;
 
 namespace ReportsServer
 {
@@ -23,18 +24,15 @@ namespace ReportsServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<IISOptions>(options => options.ForwardClientCertificate = 
+           services.Configure<IISOptions>(options => options.ForwardClientCertificate = 
                                                       options.AutomaticAuthentication=false);
-            services.AddMvc();
-            //services.AddDbContext<ConfsContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AlphaConfigConnection")));
-            services.AddScoped<IAeEventRepository>(provider => new AeEventRepository(Configuration.GetConnectionString("AlphaServerConnection"), Configuration.GetConnectionString("AlphaConfigConnection")));
-            //DbContext reportsConfig= new ContextFactory(Configuration.GetConnectionString("AlphaConfigConnection")).CreateContext();
-            //services.AddDbContext<AeEventContext>();
-            //services.AddScoped<IContextFactory>(provider => new ContextFactory(Configuration.GetConnectionString("AlphaConfigConnection")));
+           services.AddMvc();
+           services.AddScoped(provider => new AeEventRepository(Configuration.GetConnectionString("AlphaServerConnection")));
+           services.AddScoped(provider => new ConfigRepository(Configuration.GetConnectionString("AlphaConfigConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-            public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             
             app.UseStaticFiles();

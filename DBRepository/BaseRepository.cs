@@ -1,19 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DBRepository
 {
-    public abstract class BaseRepository
+    public class BaseRepository 
     {
-        protected string ConnectionStringData { get; }
-        protected string ConnectionStringConfiguration { get; }
-        public BaseRepository(string connectionStringData,string connectionStringConfiguration)
+        public string ConnectionString;
+        public BaseRepository(string connectionString)
         {
-            ConnectionStringData = connectionStringData;
-            ConnectionStringConfiguration = connectionStringConfiguration;
+            ConnectionString = connectionString;        
         }
-
     }
 }

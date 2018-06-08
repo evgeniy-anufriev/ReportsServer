@@ -5,22 +5,23 @@ namespace Models.Models
 {
     public partial class EventHistory
     {
-        public DateTime EventTime { get; set; }
+        //public DateTime EventTime { get; set; }
         public int Id { get; set; }
         public DateTime ActiveTime { get; set; }
-        public int Category { get; set; }
+        //public int Category { get; set; }
         public int Severity { get; set; }
-        public int? Condition { get; set; }
-        public int? SubCondition { get; set; }
-        public bool? AckRequired { get; set; }
-        public int ChangeMask { get; set; }
-        public int NewState { get; set; }
+        //public int? Condition { get; set; }
+        //public int? SubCondition { get; set; }
+        //public bool? AckRequired { get; set; }
+        //public int ChangeMask { get; set; }
+        //public int NewState { get; set; }
         public int Quality { get; set; }
-        public int Cookie { get; set; }
+        //public int Cookie { get; set; }
         public string Message { get; set; }
-        public string ActorId { get; set; }
+        //public string ActorId { get; set; }
         public string Source { get; set; }
-        public int? Attrib00Id { get; set; }
+        //public int Attrib00Id { get; set; }
+        public object Value { get; set; }
         //public int? Attrib01Id { get; set; }
         //public int? Attrib02Id { get; set; }
         //public int? Attrib03Id { get; set; }

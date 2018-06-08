@@ -1,0 +1,5 @@
+C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=ReportsServer
+--content-root=C:\Users\cspaadmin\Source\Repos\ReportsServer\ReportsServer
+--file=
